@@ -1,0 +1,38 @@
+{
+  "name": "server-side-transactions",
+  "version": "1.0.0",
+  "description": "Server side application to perform smart contract transactions",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LorranSutter/Server-side-transactions.git"
+  },
+  "keywords": [
+    "Smart",
+    "Contracts",
+    "Solidity",
+    "Node.js",
+    "Server side transactions"
+  ],
+  "author": "Lorran Sutter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LorranSutter/Server-side-transactions/issues"
+  },
+  "homepage": "https://github.com/LorranSutter/Server-side-transactions#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ethereumjs-tx": "^2.1.2",
+    "express": "^4.17.1",
+    "pug": "^3.0.0",
+    "web3": "^1.2.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
